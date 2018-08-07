@@ -10,8 +10,13 @@ namespace B_Tree
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            PrintHelloWorld();
             Console.ReadKey();
+        }
+
+        static void PrintHelloWorld()
+        {
+            Console.WriteLine("Hello World!");
         }
     }
 }
